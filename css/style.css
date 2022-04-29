@@ -1,0 +1,35 @@
+/* Solucionar top principal para fixed del navbar*/
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+/* Mediaquerie para que el input de new cambie a 50% cuando esta a tama;o medio */
+@media(min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+}
+
+/* mapa */
+#map{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.bg-amarillo{
+    background: #fff;
+}
+.bg-naranja{
+    background: #EE964B;
+}
+.text-negro{
+    color: #000;
+}
+.bg-pan{
+    background: url("/img/pan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
